@@ -1,5 +1,7 @@
+# Function to open shop data
+
 storeOpen <- function() {
-        storeRaw <- read.csv("KING County Recreational Pot Shops - as of 8-21-2015 - Sheet1.csv", sep=",")
-        storeClean <- sapply(storeRaw$Opening, as.POSIXct(format = "%m-%d-%y"))
-        head(storeClean)
+        storeClean <- read.csv("King County Pot Shops - as of 9-11-15 - Sheet1.csv", sep=",")
+        storeClean$Opening <- as.POSIXct(storeClean$Opening, format = "%m/%d/%y")
+        storeClean
 }

@@ -1,3 +1,5 @@
+# The functionality of this file has been incorporated into the cleanDataFnct.R file
+
 marijuanaSource <- function(data) {
         
         for(i in 1:length(data[,1])) {
