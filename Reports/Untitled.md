@@ -1,0 +1,1 @@
+![](plots/pieChartExposures.pdf "Pie Chart")
