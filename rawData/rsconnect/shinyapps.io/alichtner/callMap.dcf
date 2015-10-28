@@ -1,0 +1,9 @@
+name: callMap
+account: alichtner
+server: shinyapps.io
+appId: 65335
+bundleId: 294611
+url: https://alichtner.shinyapps.io/callMap
+when: 1445536839.25838
+asMultiple: FALSE
+asStatic: FALSE

@@ -1,0 +1,9 @@
+name: map-app
+account: alichtner
+server: shinyapps.io
+appId: 65406
+bundleId: 294924
+url: https://alichtner.shinyapps.io/map-app
+when: 1445558843.53037
+asMultiple: FALSE
+asStatic: FALSE

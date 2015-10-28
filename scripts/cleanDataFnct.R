@@ -10,7 +10,7 @@ cleanDataFnct <- function() {
         # Read in data, columns are columns to be read into "cleaning" dataframe
         #---------------------------------------------------------------------------------------
         
-        rawData <- read.csv("MarijaunaExposureData.csv", sep=",")          
+        rawData <- read.csv("data/MarijaunaExposureData.csv", sep=",")          
         columns <- c(9,8,11,6,7,10,3,4)
         
         #---------------------------------------------------------------------------------------
